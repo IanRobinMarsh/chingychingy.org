@@ -2,11 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
+title: Chingy Chingy # the website title (if blank, full name will be used instead)
+first_name: Ian
 middle_name: R.
-last_name: Name
-email: you@example.com
+last_name: Marsh
+email: ianm@ianmarsh.org
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -15,8 +16,9 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  chingychingy.org # the base hostname & protocol for your site
-baseurl: /blog/ # the subpath of your site, e.g. /blog/
+baseurl: /blog # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
+# {{ page.last-modified-date | date: '%B %d, %Y' }}
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -41,8 +43,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
+github_IanRobinMarsh: # your GitHub user name
+twitter_IanRobinMarsh: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -54,7 +56,7 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You XXX can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -62,8 +64,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Ian  # your blog must have a name for it to show up in the nav bar
+blog_description: My site, keep reading
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -119,17 +121,19 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+  - _plugins/hook-add-last-modified-date.rb
   # - bootstrap
   # - material-sass
 
+  
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Marsh
+  first_name: [Ian, R.]
 
   style: apa
   locale: en
