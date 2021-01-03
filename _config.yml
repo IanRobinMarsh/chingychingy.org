@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  chingychingy.org # the base hostname & protocol for your site
-baseurl: /blog # the subpath of your site, e.g. /blog/
+baseurl: /about # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 # {{ page.last-modified-date | date: '%B %d, %Y' }}
 
@@ -56,8 +56,10 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You XXX can even add a little note about which of these is the best way to reach you.
+  Mail away.
 
+# G-QQ4X5H2M37
+# 2229385893
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
