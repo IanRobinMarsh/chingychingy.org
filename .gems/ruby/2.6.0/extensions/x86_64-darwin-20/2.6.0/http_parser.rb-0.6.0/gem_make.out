@@ -1,0 +1,16 @@
+current directory: /Users/ianmarsh/chingychingy.org/.gems/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/ianmarsh/.rbenv/versions/2.6.4/bin/ruby -I /Users/ianmarsh/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20210126-64476-d9wblu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ianmarsh/chingychingy.org/.gems/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/ianmarsh/chingychingy.org/.gems/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/ianmarsh/chingychingy.org/.gems/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20210126-64476-6nc3ph
