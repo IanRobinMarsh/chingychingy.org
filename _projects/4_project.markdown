@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Knowledge Engines 
+description: An NLP project
+img: /assets/img/knowledge.png
 importance: 3
 ---
 
