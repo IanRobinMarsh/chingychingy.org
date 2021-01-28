@@ -1,23 +1,15 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: ANIARA
+description: CELTIC-NEXT Edge project
 img: /assets/img/12.jpg
 importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Digital transformation is ongoing in many areas of today’s society, which will impact many aspects of people’s lives via means such as smart cities, robotic, transportation, and next-generation industries. At the same time, the current centralised cloud infrastructure is not adequate to serve the transformation’s requirements. We believe that three technologies can come together to shape a new secure service and application platform; 5G, edge-centric compute & artificial intelligence. In this context, European industry has a good position in 5G networks, transportation and industrial applications, but need to strengthen the position in a secure cloud, data centre and artificial intelligence technologies to be at the front of the development.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The primary objective of the ANIARA project is to provide enablers and solutions for high-performance services deployed and operated at the network edge. To manage complexity, we need to take advantage of artificial intelligence to complement traditional optimisation algorithms. Currently, deep edge network nodes will be deployed at locations not prepared for the power requirements of edge-centric compute. To answer this, we need to analyse requirements and develop methods to minimise energy consumption.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
