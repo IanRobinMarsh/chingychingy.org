@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: Pics, Travel, Sociol commentary, Friends, SE/PT/UK.
+description: Pics, Travel, Social commentary, Friends, UK-Sweden-Portual.
 
 profile:
   align: right
@@ -19,10 +19,3 @@ Alternate work [site](https://ianmarsh.org){:target="\_blank"}.
 
 Some random pages, ideas, projects not `related` to work.
 
-Link to your social media connections, too. This theme is set up to
-use
-[Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"}
-and
-[Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"},
-like the ones below. Add your Facebook, Twitter, LinkedIn, Google
-Scholar, or just disable all of them.
