@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: TENS
 description: a project that redirects to another website
 img: /assets/img/TENS.png
 redirect: https://ianmarsh.org/tens-project
