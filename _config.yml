@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# Ian Marsh's blog
 # -----------------------------------------------------------------------------
 
 title: Chingy Chingy # the website title (if blank, full name will be used instead)
@@ -12,8 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  chingychingy.org # the base hostname & protocol for your site
 baseurl: /about # the subpath of your site, e.g. /blog/
@@ -90,8 +90,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
-news_limit: 5
+  travel:
+    output: true
+    permalink: /travel/:path/
+news_limit: 7
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
