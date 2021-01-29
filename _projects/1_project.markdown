@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ANIARA
+title: ANIARA 
 description: CELTIC-NEXT Edge project
-img: /assets/img/12.jpg
+img: /assets/img/aniara.jpg
 importance: 1
 ---
 
