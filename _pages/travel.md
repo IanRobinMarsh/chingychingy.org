@@ -2,15 +2,13 @@
 layout: page
 permalink: /travel/
 title: Travel
-description: Travel pages
 nav: true
 ---
 
-Let's go, let's go.
+Bali.
 
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+<img src="../assets/img/bali.jpg" alt="bali" width="400"/>
 
-![Bali. This place was so cool!](/assets/img/bali.jpg "Bali")
-![Bali. This place was so cool!](/assets/images/bali.jpg "Bali")
+
 
 ---
