@@ -1,82 +1,26 @@
-# -----------------------------------------------------------------------------
-# Ian Marsh's blog
-# -----------------------------------------------------------------------------
-
-title: Chingy Chingy # the website title (if blank, full name will be used instead)
+title: Chingy Chingy
 first_name: Ian
 middle_name: R.
 last_name: Marsh
 email: ianm@ianmarsh.org
-
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
-url:  chingychingy.org # the base hostname & protocol for your site
-baseurl: /about # the subpath of your site, e.g. /blog/
-# last_updated: true # set to true if you want to display last updated in the footer
-# {{ page.last-modified-date | date: '%B %d, %Y' }}
-
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
+url: chingychingy.org # the base hostname & protocol for your site
+baseurl: /
+last_updated: true # set to true if you want to display last updated in the footer
+max_width: 800px
 
 navbar_fixed: true
 footer_fixed: true
 
-# Dimensions
-max_width: 800px
-
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
-# Open Graph
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Social integration
+# Optional Features
 # -----------------------------------------------------------------------------
 
-github_IanRobinMarsh: # your GitHub user name
-twitter_IanRobinMarsh: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-keybase_username: # your keybase user name
-
-contact_note: >
-  Mail away.
-
-# G-QQ4X5H2M37
-# 2229385893
->
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: Ian  # your blog must have a name for it to show up in the nav bar
-blog_description: 
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
+enable_google_analytics:  false
+enable_mansory:           true
+enable_math:              true
+enable_tooltips:          false
+enable_darkmode:          true
+show_social_icons:        false
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -95,6 +39,7 @@ collections:
     output: true
     permalink: /travel/:path/
 news_limit: 7
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -117,55 +62,6 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude: [vendor]
-
-# Plug-ins
-plugins:
-  - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-twitter-plugin
-  - jemoji
-  - _plugins/hook-add-last-modified-date.rb
-  # - bootstrap
-  # - material-sass
-
-  
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-
-  last_name: Marsh
-  first_name: [Ian, R.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
-
-# -----------------------------------------------------------------------------
-# Optional Features
-# -----------------------------------------------------------------------------
-
-enable_google_analytics:  false
-enable_mansory:           true
-enable_math:              true
-enable_tooltips:          false
-enable_darkmode:          true
-show_social_icons:        false
 
 # -----------------------------------------------------------------------------
 # Library versions
